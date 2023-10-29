@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;   
+}
+body {
+    background-color: rgba(65, 105, 225, 0.308);
+}
+.testForm {
+  width: 40%;
+  padding: 20px;
+  margin: auto;
+  text-align: center;
+  border-radius: 20px;
+  border: none;
+  background-image: url(pexels-melike-sayar-melikesayar-11067968.jpg);
+  background-repeat: no-repeat;
+}
+input[type="button"] {
+  font-size: 28px;
+  text-align: center;
+  width: 120px;
+  height: 50px;
+  margin: 15px;
+  margin-top: 10px;
+  background-color: rgba(255, 255, 255, 0.589);
+  border: none;
+  border-radius: 10px;
+  color: black;
+  font-weight: bold;
+}
+
+input[type="text"] {
+  width: 50%;
+  height: 50px;
+  border: none;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 32px;
+  color: black;
+  background-color: rgb(197, 224, 255);
+
+}

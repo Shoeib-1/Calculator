@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <title>Calculator</title>
+     <link rel="stylesheet" href="style.css">
+     <script>
+          // we can write here
+     </script>
+</head>
+<body>
+     
+     <form class="testForm" name="formOne">
+          <input type="text" name="textarea">
+          <br>
+          <div class="inputs">
+          <input type="button" value="1" onclick="formOne.textarea.value+='1'" >
+          <input type="button" value="2" onclick="formOne.textarea.value+='2'">
+          <input type="button" value="3" onclick="formOne.textarea.value+='3'">
+          <br>
+          <input type="button" value="4" onclick="formOne.textarea.value+='4'">
+          <input type="button" value="5" onclick="formOne.textarea.value+='5'">
+          <input type="button" value="6" onclick="formOne.textarea.value+='6'">
+          <br>
+          <input type="button" value="7" onclick="formOne.textarea.value+='7'">
+          <input type="button" value="8" onclick="formOne.textarea.value+='8'">
+          <input type="button" value="9" onclick="formOne.textarea.value+='9'">
+          <br>
+          <input type="button" value="0" onclick="formOne.textarea.value+='0'">
+          <input type="button" value="+" onclick="formOne.textarea.value+='+'">
+          <input type="button" value="-" onclick="formOne.textarea.value+='-'">
+          <br>
+          <input type="button" value="*" onclick="formOne.textarea.value+='*'">
+          <br>
+          <input type="button" value="/" onclick="formOne.textarea.value+='/'">
+          <br>
+          <input type="button" value="EQUAL" onclick="formOne.textarea.value=eval(formOne.textarea.value)">
+          <input type="button" value="CLEAR" onclick="formOne.textarea.value= '' ">
+          </div>
+     </form>
+
+
+     <script src="main.js"></script>
+</body>
+</html>
