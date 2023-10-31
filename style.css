@@ -6,10 +6,8 @@ body {
     height: 100%;
     margin: 0;
     padding: 0;
-}
-.testForm {
   width: 40%;
-  height: 100vh;
+
   padding: 20px;
   margin: auto;
   text-align: center;
@@ -18,6 +16,7 @@ body {
   background-image: url(pexels-melike-sayar-melikesayar-11067968.jpg);
   background-repeat: no-repeat;
 }
+
 input[type="button"] {
   font-size: 28px;
   text-align: center;
