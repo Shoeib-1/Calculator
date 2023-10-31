@@ -6,8 +6,12 @@ body {
     height: 100%;
     margin: 0;
     padding: 0;
+  
+}
+.textForm{
   width: 40%;
-
+  height:100vh
+  line-height: 100vh;
   padding: 20px;
   margin: auto;
   text-align: center;
