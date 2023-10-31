@@ -1,9 +1,8 @@
 * {
-  box-sizing: border-box;   
+  
 }
 body {
     background-color: rgba(65, 105, 225, 0.308);
-    height:500px
 }
 .testForm {
   width: 60%;
