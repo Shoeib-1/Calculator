@@ -5,10 +5,8 @@ body {
     background-color: rgba(65, 105, 225, 0.308);
 }
 .testForm{
-  margin-top:33px;
   width: 50%;
   height:100vh;
-  line-height:100vh;
   padding: 20px;
   margin: auto;
   text-align: center;
