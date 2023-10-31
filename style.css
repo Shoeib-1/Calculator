@@ -11,7 +11,7 @@ body {
   width: 50%;
   height:100vh;
   padding: 20px;
-  margin: auto;
+/*  margin: auto;*/
   text-align: center;
   border-radius: 20px;
   border: none;
@@ -45,20 +45,4 @@ input[type="text"] {
 
 }
 
-@media (max-width: 480px) {
-  input[type="text"] {
-    font-size: 24px;
-  }
-}
-@media (max-width: 320px) {
-  input[type="button"] {
-    display: none;
-  }
-}
 
-@media (max-width: 768px) {
-  /* Media query for screens with a maximum width of 768px (typical for phones) */
-  body {
-    height: 100vh;
-  }
-}
