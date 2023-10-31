@@ -3,9 +3,10 @@
 }
 body {
     background-color: rgba(65, 105, 225, 0.308);
+    height:500px
 }
 .testForm {
-  width: 40%;
+  width: 60%;
   padding: 20px;
   margin: auto;
   text-align: center;
